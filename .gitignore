@@ -1,0 +1,13 @@
+.DS_Store
+target/
+*.class
+_jasco_logs/
+*~
+*.log
+#.project
+#.classpath
+.settings/
+*.ipr
+*.iml
+*.iws
+.scala_dependencies
