@@ -12,8 +12,8 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class UNPeriodico(BasicNewsRecipe):
     title                 = u'UN Periodico'
     __author__            = 'Ismael Mejia'
-    description           = 'El Tiempo'
-    oldest_article        = 7
+    description           = 'UN Periodico'
+    oldest_article        = 30
     max_articles_per_feed = 100
     feeds          = [
     		   (u'UNPeriodico', u'http://www.unperiodico.unal.edu.co/rss/type/rss2/')
