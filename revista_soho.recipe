@@ -15,7 +15,6 @@ class RevistaSoho(BasicNewsRecipe):
     description           = 'Revista Soho'
     oldest_article        = 30
     max_articles_per_feed = 100
-    publication_type      = 'newspaper'
     feeds          = [
     		   (u'Revista Soho', u'http://www.soho.com.co/rss/Soho.xml')
 		   ]

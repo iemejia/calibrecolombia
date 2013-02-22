@@ -15,7 +15,6 @@ class RevistaArcadia(BasicNewsRecipe):
     description           = 'Revista Arcadia'
     oldest_article        = 30
     max_articles_per_feed = 100
-    publication_type      = 'newspaper'
     feeds          = [
     		   (u'Revista Arcadia', u'http://www.revistaarcadia.com/rss/revistaarcadia.xml')
 		   ]
