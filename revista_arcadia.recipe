@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+'''
+http://www.revistaarcadia.com/
+'''
+
+from calibre import strftime
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class RevistaArcadia(BasicNewsRecipe):
+    title                 = u'Revista Arcadia'
+    language              = 'es_CO'
+    __author__            = 'Ismael Mejia'
+    cover_url             = 'http://www.revistaarcadia.com/img/logo.gif'
+    description           = 'Revista Arcadia'
+    oldest_article        = 30
+    max_articles_per_feed = 100
+    publication_type      = 'newspaper'
+    feeds          = [
+    		   (u'Revista Arcadia', u'http://www.revistaarcadia.com/rss/revistaarcadia.xml')
+		   ]
+#http://www.revistaarcadia.com/Sumario.aspx?idEdicion=89

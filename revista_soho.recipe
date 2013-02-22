@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+
+'''
+http://www.soho.com.co/
+'''
+
+from calibre import strftime
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class RevistaSoho(BasicNewsRecipe):
+    title                 = u'Revista Soho'
+    language              = 'es_CO'
+    __author__            = 'Ismael Mejia'
+    cover_url             = 'http://www.soho.com.co/img/generales/soho_logo.png'
+    description           = 'Revista Soho'
+    oldest_article        = 30
+    max_articles_per_feed = 100
+    publication_type      = 'newspaper'
+    feeds          = [
+    		   (u'Revista Soho', u'http://www.soho.com.co/rss/Soho.xml')
+		   ]
