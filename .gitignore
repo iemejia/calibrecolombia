@@ -5,3 +5,4 @@
 *.mobi
 *.html
 debug/
+semantic.cache
