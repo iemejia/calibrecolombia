@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# https://github.com/iemejia/calibrecolombia
 
 '''
 http://www.revistaarcadia.com/
@@ -10,7 +11,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class RevistaArcadia(BasicNewsRecipe):
     title                 = u'Revista Arcadia'
     language              = 'es_CO'
-    __author__            = 'Ismael Mejia'
+    __author__            = 'Ismael Mejia <iemejia@gmail.com>'
     cover_url             = 'http://www.revistaarcadia.com/img/logo.gif'
     description           = 'Revista Arcadia'
     oldest_article        = 30
